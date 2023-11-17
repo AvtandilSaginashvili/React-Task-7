@@ -7,7 +7,57 @@ body {
     padding: 0;
 }
 
-.homeDiv {
-    height: 100vh;
-    background-color: cornflowerblue;
+.signinlink {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: green;
+    border-radius: 6px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.2s;
+}
+.signinlink:active {
+    background-color: rgb(7, 106, 7);
+}
+
+.signuplink {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: blue;
+    border-radius: 6px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.42s;
+}
+.signuplink:active {
+    background-color: rgb(8, 8, 156);
+}
+
+
+.formin {
+    display: flex;
+    justify-content: center;
+}
+
+.label1 {
+    font-size: 12px;
+    font-weight: 400;
+    color: lightgrey;
+}
+
+.emailInput {
+    width: 350px;
+    height: 33px;
+    outline: none;
+    border: 1.5px solid #eee;
+    border-radius: 16px 6px / 6px 16px;
+    padding-left: 6px;
+    color: lightcoral;
+    background-color: transparent;
 }
