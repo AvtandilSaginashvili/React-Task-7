@@ -40,7 +40,7 @@ function Signup() {
                         <div className="w-100">
                         <input type="password" id="passwordInput" placeholder="Password" className="emailInput" />
                         </div>
-                        <button className="btn btn-success w-100 mt-3" onClick={up} type="button">შესვლა</button>
+                        <button className="btn btn-success w-100 mt-3" onClick={up} type="button">რეგისტრაცია</button>
                         </div>
                     </form>
     )
